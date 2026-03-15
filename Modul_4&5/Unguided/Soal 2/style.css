@@ -1,0 +1,42 @@
+body{
+    background-image: url(Bekasi.jpg);
+    background-size: cover; /* Menutupi penuh area */
+    background-position: center; /* Posisi di tengah */
+    background-repeat: no-repeat
+}
+
+.icons{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    color: black;
+    font-family: serif;
+    background-color: white;
+    border-radius: 7%;
+}
+
+.icons div, h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.icons img{
+    display: block;
+    gap: 5px;
+    margin: auto;
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: 2px black;
+}
+
+.info-table{
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.info-table td{
+    padding: 8px 12px;
+}
